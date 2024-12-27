@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Coaching_Managmant</string>
+    <string name="default_web_client_id">YOUR_ID</string>
+</resources>

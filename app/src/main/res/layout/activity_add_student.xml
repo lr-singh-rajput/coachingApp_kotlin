@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:elevation="30dp"
+    tools:context=".add_studentActivity">
+
+    <ImageButton
+        android:id="@+id/back_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/arrow_back"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.23000002" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:fontFamily="serif"
+        android:text="Add Student"
+        android:textColor="@color/palpal"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="22dp"
+
+        app:cardCornerRadius="20dp"
+        app:cardElevation="151dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/firoji">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/name"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="41dp"
+                    android:layout_marginRight="27dp"
+                    android:background="@drawable/box_bg"
+                    android:ems="10"
+                    android:hint="name"
+                    android:inputType="text"
+                    android:padding="11dp"
+                    android:textColorHint="@color/palpal" />
+
+                <EditText
+                    android:id="@+id/fathername"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="27dp"
+                    android:layout_marginRight="27dp"
+                    android:background="@drawable/box_bg"
+                    android:ems="10"
+                    android:hint="fathername"
+                    android:inputType="text"
+                    android:padding="11dp"
+                    android:textColorHint="@color/palpal" />
+
+
+                <EditText
+                    android:id="@+id/number"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginRight="27dp"
+                    android:background="@drawable/box_bg"
+                    android:hint="phone number"
+                    android:inputType="phone"
+                    android:padding="11dp"
+                    android:textColorHint="@color/palpal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/group"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginRight="27dp"
+                    android:background="@drawable/box_bg"
+                    android:hint="Group"
+                    android:inputType="text"
+                    android:padding="11dp"
+                    android:textColorHint="@color/palpal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/fees"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginRight="27dp"
+                    android:background="@drawable/box_bg"
+                    android:hint="Fees"
+                    android:inputType="number"
+                    android:padding="11dp"
+                    android:textColorHint="@color/palpal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <EditText
+                    android:id="@+id/paid"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginRight="27dp"
+                    android:background="@drawable/box_bg"
+                    android:hint="paid"
+                    android:inputType="number"
+                    android:padding="11dp"
+                    android:textColorHint="@color/palpal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnSubmit"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="23dp"
+                    android:background="@drawable/btn_back"
+                    android:text="submit"
+                    android:gravity="center"
+                    android:textColor="@color/palpal"
+                    android:layout_marginBottom="30dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

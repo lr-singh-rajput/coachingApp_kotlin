@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "999817043736",
+    "project_id": "coaching-managmant-ffb6d",
+    "storage_bucket": "coaching-managmant-ffb6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999817043736:android:b2e87f0151bcf4a4c5086d",
+        "android_client_info": {
+          "package_name": "com.shukhibhavtu.coaching_managmant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABfNch_4egEBtcI9_-mzRt8r5zTs8eG-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

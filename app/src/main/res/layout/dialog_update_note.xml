@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edti_name"
+                android:layout_width="271dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/box_2"
+                android:textColorHint="@color/firoji"
+                android:ems="10"
+                android:hint="name"
+                android:inputType="text"
+                android:padding="11dp" />
+
+            <EditText
+                android:id="@+id/edti_fathername"
+                android:layout_width="271dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/box_2"
+                android:textColorHint="@color/firoji"
+                android:ems="10"
+                android:hint="fathername"
+                android:inputType="text"
+                android:padding="11dp" />
+
+            <EditText
+                android:id="@+id/edit_number"
+                android:layout_width="271dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/box_2"
+                android:textColorHint="@color/firoji"
+                android:ems="10"
+                android:hint="number"
+                android:inputType="number"
+                android:padding="11dp" />
+
+            <EditText
+                android:id="@+id/edit_group"
+                android:layout_width="271dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/box_2"
+                android:textColorHint="@color/firoji"
+                android:ems="10"
+                android:hint="group"
+                android:inputType="text"
+                android:padding="11dp" />
+
+            <EditText
+                android:id="@+id/edit_rupi"
+                android:layout_width="271dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/box_2"
+                android:textColorHint="@color/firoji"
+                android:ems="10"
+                android:hint="total rupee"
+                android:inputType="number"
+                android:padding="11dp" />
+
+            <EditText
+                android:id="@+id/edit_paid"
+                android:layout_width="271dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/box_2"
+                android:textColorHint="@color/firoji"
+                android:ems="10"
+                android:hint="paid"
+                android:inputType="number"
+                android:padding="11dp" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

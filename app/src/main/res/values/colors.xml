@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="palpal">#6750A3</color>
+    <color name="firoji">#FF78BDE7</color>
+    <color name="palaplrv">#AA94E3</color>
+    <color name="palaplbgcolor">#8E72D5</color>
+    <color name="palaplboder">#6D56A7</color>
+
+</resources>

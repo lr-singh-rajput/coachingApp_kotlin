@@ -11,5 +11,5 @@ Each class has its own dedicated group, enabling teachers to manage student data
 <p>Backend: Firebase Database</p>
 <p>Platforn: Android</p>
 
-<h1>Name - App images </h1>
+<h1> App images </h1>
 <img src="https://github.com/lr-singh-rajput/coachingApp_kotlin/blob/main/coacho1.png" alt="Sample Image">
